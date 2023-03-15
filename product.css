@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    background-color: rgb(129, 136, 38);
+    display: flex;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+}
+.header-list a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.header-list a:hover,
+.header-list a:active{
+    color: rgb(198, 212, 0);
+}
+.form input{
+    border-radius: 5px;
+    border-color:rgb(198, 212, 0);
+    display:block;
+    width: 303px;
+    height: 24px;
+
+}
+.form{
+    margin-top: 50px;
+}
+.forms{
+    margin-left: 250px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color:rgb(198, 212, 0) ;
+    width: 312px;
+    height: 29px;
+}
+button:hover{
+    background-color:rgb(198, 212, 0) ;
+}
